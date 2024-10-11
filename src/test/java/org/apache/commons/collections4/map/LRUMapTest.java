@@ -648,7 +648,7 @@ public class LRUMapTest<K, V> extends AbstractOrderedMapTest<K, V> {
             }
         }
 
-        Thread.sleep(200);
+        Thread.sleep(100);
 
         for (final Thread thread : threads) {
             thread.interrupt();
@@ -732,7 +732,7 @@ public class LRUMapTest<K, V> extends AbstractOrderedMapTest<K, V> {
             }
         }
 
-        Thread.sleep(200);
+        Thread.sleep(100);
 
         for (final Thread thread : threads) {
             thread.interrupt();
@@ -816,7 +816,7 @@ public class LRUMapTest<K, V> extends AbstractOrderedMapTest<K, V> {
             }
         }
 
-        Thread.sleep(200);
+        Thread.sleep(100);
 
         for (final Thread thread : threads) {
             thread.interrupt();
@@ -895,7 +895,7 @@ public class LRUMapTest<K, V> extends AbstractOrderedMapTest<K, V> {
             }
         }
 
-        Thread.sleep(200);
+        Thread.sleep(100);
 
         for (final Thread thread : threads) {
             thread.interrupt();
