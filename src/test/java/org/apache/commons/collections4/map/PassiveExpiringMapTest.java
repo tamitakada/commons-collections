@@ -267,7 +267,7 @@ public class PassiveExpiringMapTest<K, V> extends AbstractMapTest<PassiveExpirin
         assertNotNull(map.get("a"));
 
         try {
-            Thread.sleep(2 * timeout);
+            Thread.sleep(timeout);
         } catch (final InterruptedException e) {
             fail();
         }
